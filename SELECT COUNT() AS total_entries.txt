@@ -1,0 +1,12 @@
+SELECT COUNT(*) AS total_entries
+FROM netflix_titles;
+
+total_entries
+0
+
+
+SELECT AVG(numeric_column) AS average_value
+FROM netflix_titles;
+
+SELECT SUM(numeric_column) AS total_sum
+FROM netflix_titles;
